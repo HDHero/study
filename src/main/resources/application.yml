@@ -1,0 +1,10 @@
+#服务启动端口号
+server:
+  port: 8081
+
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+    cache: false
+    check-template-location: true
+    suffix: .ftl
